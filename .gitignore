@@ -1,0 +1,11 @@
+
+.metadata
+bin/
+tmp/
+
+build/
+
+# eclipse project file
+.settings/
+.classpath
+.project

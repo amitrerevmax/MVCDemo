@@ -9,3 +9,9 @@ build/
 .settings/
 .classpath
 .project
+
+
+# intellij project file
+MVCDemo.iml
+
+.idea/

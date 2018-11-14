@@ -9,7 +9,23 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import com.amit.model.Products;
 
+@Path("/product")
 public class ProductRestService {
+	
+	@GET
+	@Path("/all")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Products getAllProducts() {
+		
+		Products products = new Products();
+		products.setName("Abc");
+		products.setQuantity(10);
+		products.setPrice(23.03);
+		
+		return products;
+		
+	}
 
 }

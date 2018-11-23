@@ -9,6 +9,7 @@ build/
 .settings/
 .classpath
 .project
+target/
 
 
 # intellij project file
